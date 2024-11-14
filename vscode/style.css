@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid black;
+    border-color: green;
+    margin: 200px 200px 200px 200px;
+    
+}
+thead th {
+    color: white;
+    background-color: #009879;
+}
+tbody  tr { 
+    border-top: 1px solid ; 
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+    color: #009879;
+}
